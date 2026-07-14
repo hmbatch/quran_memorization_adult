@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Amiri', serif;
+  --font-display: 'Space Grotesk', sans-serif;
+}
+
+/* Custom scrollbars for professional dashboard aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FCF9F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C3A1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA780;
+}
+
+body {
+  background-color: #FCF9F2;
+  color: #2D4232;
+  font-family: var(--font-sans);
+}

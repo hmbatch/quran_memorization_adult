@@ -1,0 +1,6 @@
+{
+  "name": "Quran Memorization App",
+  "description": "An advanced spaced-repetition (FSRS) and Tajweed-aware Quran memorization application designed for adult professionals.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
